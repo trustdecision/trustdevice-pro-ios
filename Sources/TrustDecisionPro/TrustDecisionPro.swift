@@ -9,3 +9,13 @@
 #endif
 
 public enum TrustDecisionPro {}
+
+#if canImport(TDMobRisk) && canImport(FMDeviceManagerFramework)
+@_cdecl("TrustDecisionProForceLinkSymbols")
+public func TrustDecisionProForceLinkSymbols() -> Int32 {
+    _ = TDMobRiskManager.self
+    _ = TDDeviceManager.self
+    _ = FMDeviceManager.self
+    return 0
+}
+#endif
