@@ -9,4 +9,4 @@ After integrating this SDK via SPM, you must manually add the following flag to 
 
 ## License
 
-MIT. See the [LICENSE](LICENSE) file for details.
+This library is MIT licensed. Copyright TrustDecision, Inc. 2026.
