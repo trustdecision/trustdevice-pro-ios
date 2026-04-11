@@ -3,6 +3,6 @@ TrustDecisionPro iOS SDK
 
 ## Swift Package Manager
 
-接入方在通过 SPM 依赖后，还需要在宿主工程的 `Other Linker Flags` 中手动添加：
+After integrating this SDK via SPM, you must manually add the following flag to the host app target's `Other Linker Flags`:
 
 `-ObjC`
