@@ -22,8 +22,7 @@ let package = Package(
             ],
             path: "Sources/TrustDecisionPro",
             linkerSettings: [
-                .linkedLibrary("resolv.9"),
-                .unsafeFlags(["-ObjC"])
+                .linkedLibrary("resolv.9")
             ]
         ),
         .binaryTarget(
