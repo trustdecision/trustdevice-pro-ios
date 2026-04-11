@@ -4,17 +4,12 @@ import PackageDescription
 let package = Package(
     name: "TrustDecisionPro",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v12)
     ],
     products: [
         .library(
             name: "TrustDecisionPro",
-            targets: [
-                "TrustDecisionPro",
-                "TDMobRisk",
-                "TDCorePlugin",
-                "FMDeviceManagerFramework"
-            ]
+            targets: ["TrustDecisionPro"]
         )
     ],
     targets: [
