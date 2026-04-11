@@ -9,7 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "TrustDecisionPro",
-            targets: ["TrustDecisionPro"]
+            targets: [
+                "TrustDecisionPro",
+                "TDMobRisk",
+                "TDCorePlugin",
+                "FMDeviceManagerFramework"
+            ]
         )
     ],
     targets: [
