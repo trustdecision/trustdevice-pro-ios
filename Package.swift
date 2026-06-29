@@ -10,17 +10,17 @@ let package = Package(
         .library(
             name: "TrustDecisionPro",
             type: .static,
-            targets: [
-                "TrustDecisionPro",
-                "TDMobRisk",
-                "TDCorePlugin",
-                "FMDeviceManagerFramework"
-            ]
+            targets: ["TrustDecisionPro"]
         )
     ],
     targets: [
         .target(
             name: "TrustDecisionPro",
+            dependencies: [
+                "TDMobRisk",
+                "TDCorePlugin",
+                "FMDeviceManagerFramework"
+            ],
             path: "Sources/TrustDecisionPro",
             linkerSettings: [
                 .linkedLibrary("resolv.9")
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TDMobRisk",
-            url: "https://raw.githubusercontent.com/trustdecision/trustdevice-pro-ios/main/Artifacts/TDMobRisk_static_xcframework_v5.3.1.1.zip",
-            checksum: "c55595901c781e59b2548ff4c9ab1fb5e395ccc76648cc5ccd228dae4f8861cc"
+            url: "https://static.trustdecision.com/fp-ios/5.3.1/spm/TDMobRisk_xcframework_v5.3.1.1_0b25924_fp.zip",
+            checksum: "638968cf11397ef32ee73f7d8c69529522cc5ca4a7ce3628c9abbcdb6bd6cf7d"
         ),
         .binaryTarget(
             name: "TDCorePlugin",
@@ -38,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FMDeviceManagerFramework",
-            url: "https://raw.githubusercontent.com/trustdecision/trustdevice-pro-ios/main/Artifacts/FMDeviceManagerFramework_static_xcframework_v5.3.1.1.zip",
-            checksum: "7d63fdf112050bc347a975e5a457934be06b4e4d131fadd6baa0853a125fdc0a"
+            url: "https://static.trustdecision.com/fp-ios/5.3.1/spm/FMDeviceManagerFramework_xcframework_v5.3.1.1_bf97a63_fp.zip",
+            checksum: "d88aeb580034281dceb4b51d5a81bedb2bfefeeee9dcdce71d229ad53e3d2075"
         )
     ]
 )
