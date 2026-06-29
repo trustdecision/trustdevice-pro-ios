@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "TrustDecisionPro",
+            type: .static,
             targets: ["TrustDecisionPro"]
         )
     ],
