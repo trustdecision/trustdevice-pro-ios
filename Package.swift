@@ -28,18 +28,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TDMobRisk",
-            url: "https://static.trustdecision.com/fp-ios/5.3.1/spm/TDMobRisk_xcframework_v5.3.1.6_a1a9fca_2.zip",
-            checksum: "8f277d1d4572d21b93357a242c584495a0fe66ee1638512174cbeae7e113294f"
+            url: "https://static.trustdecision.com/fp-ios/5.3.2/spm/TDMobRisk_xcframework_v5.3.2_99139a5.zip",
+            checksum: "5236cc98ebd08facc547ec9c06e7558328ca147ad476ae8e3abddeb5f280dee4"
         ),
         .binaryTarget(
             name: "TDCorePlugin",
-            url: "https://static.trustdecision.com/fp-ios/5.3.1/spm/TDCorePlugin_xcframework_v4.3.7_9ddec2b_2.zip",
-            checksum: "8101f545cee5e7915c81f8b7f11a97d6ae977318a04827b32cf4996680cf14f7"
+            url: "https://static.trustdecision.com/fp-ios/5.3.2/spm/TDCorePlugin_xcframework_v4.3.7_9ddec2b.zip",
+            checksum: "decc8ec1fdc792d024bea011629c84f3bf3db4205c1a9c5ccab934528d40fad5"
         ),
         .binaryTarget(
             name: "FMDeviceManagerFramework",
-            url: "https://static.trustdecision.com/fp-ios/5.3.1/spm/FMDeviceManagerFramework_xcframework_v5.3.1.6_3847808_2.zip",
-            checksum: "02ff2d551ef239425874f440469e3b61fa3cdbba5f3b1978db36ac03ce36156b"
+            url: "https://static.trustdecision.com/fp-ios/5.3.2/spm/FMDeviceManagerFramework_xcframework_v5.3.2_ce4d3a3.zip",
+            checksum: "4cc6b0d918cbc673c3b0392be13d33ffe1c10427b5f5586012b8a0e999c94365"
         )
     ]
 )
